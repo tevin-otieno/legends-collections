@@ -5,9 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.155" />
         <entry key="app/src/main/res/drawable/splash_background.xml" value="0.2015" />
-        <entry key="app/src/main/res/layout/activity_about.xml" value="0.18115942028985507" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_collections.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_form.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_form.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.151268115942029" />
       </map>
     </option>

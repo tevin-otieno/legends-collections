@@ -10,9 +10,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
         android:text="TextView"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="337dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
@@ -21,12 +22,14 @@
         android:layout_marginEnd="8dp"
         android:text="Hi,"
         app:layout_constraintEnd_toStartOf="@+id/name123"
-        tools:layout_editor_absoluteY="32dp" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name123" />
 
     <EditText
         android:id="@+id/clothName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="263dp"
+        android:layout_height="68dp"
         android:layout_marginTop="248dp"
         android:ems="10"
         android:hint="Enter cloth design"
