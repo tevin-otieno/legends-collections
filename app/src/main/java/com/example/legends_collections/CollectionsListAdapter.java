@@ -13,7 +13,12 @@ public class CollectionsListAdapter extends ArrayAdapter {
 
     @Override
     public Object getItem(int position){
-        String product = clothes[position];
-        return String.format("cloth selected is", product);
+        String cloth = clothes[position];
+        return String.format("cloth selected is", cloth);
+    }
+
+    @Override
+    public int getCount(){
+        return clothes.length;
     }
 }
